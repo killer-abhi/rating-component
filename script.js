@@ -28,6 +28,8 @@ function handleclick5(){
 function handlesubmit(){
     let text="Thank You";
     document.getElementById("submit").innerHTML=text;
+    // document.getElementById("rating").innerHTML=end;
+    console.log(document.getElementById("rating").innerHTML);
 }
 function change(){
     for(let i=1;i<=5;i++)
