@@ -61,7 +61,7 @@ main1{
 }
 .star{
     /* background-color: hsl(216, 12%, 54%); */
-    background: url("/public/images/icon-star.svg");
+    background: url("./assets/images/icon-star.svg");
     background-repeat: no-repeat;
     background-size:contain;
     width: 2em;
@@ -156,7 +156,7 @@ main2{
 @media (max-width:500px) and (min-width:350px) {
     main2{
         width: 15em;
-        height: 25em;
+        height: 27em;
         margin: 5em auto;
         border-radius: 2em;
         display: flex;
@@ -168,7 +168,7 @@ main2{
     height: 7em;
     width:10em;
     margin: 0em auto;
-    background: url("/public/images/illustration-thank-you.svg");
+    background: url("./assets/images/illustration-thank-you.svg");
     background-size: contain;
     background-repeat: no-repeat;
     /* background-color: aqua; */
