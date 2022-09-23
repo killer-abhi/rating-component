@@ -9,7 +9,7 @@ body{
     width: 100vw; */
     background-color: black;
 }
-main{
+main1{
     width: 20em;
     height: 25em;
     margin: 8em auto;
@@ -18,6 +18,7 @@ main{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    font-family: 'Overpass', sans-serif;
 }
 @media (max-width:1440px) and (min-width:720px) {
     main{
@@ -102,13 +103,10 @@ main{
     color: aliceblue;
     cursor: pointer;
 }
-.submit{
+.btn{
     margin: 1em auto;
     width: 80%;
-}
-.btn{
     color:aliceblue;
-    width: 100%;
     background-color: hsl(25, 97%, 53%);
     height: 2em;
     border: none;
@@ -119,4 +117,71 @@ main{
     background-color: rgb(116, 238, 116);
     color: black;
     cursor: pointer;
+}
+
+main2{
+    width: 20em;
+    height: 30em;
+    margin: 5em auto;
+    font-family: 'Overpass', sans-serif;
+        border-radius: 2em;
+    background-color: hsl(213, 19%, 18%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+@media (max-width:1440px) and (min-width:720px) {
+    main2{
+        width: 20em;
+        height: 27em;
+        margin: 6em auto;
+        border-radius: 2em;
+        display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    }
+}
+
+@media (max-width:720px) and (min-width:500px) {
+    main2{
+        width: 20em;
+        height: 25em;
+        margin: 8em auto;
+        border-radius: 2em;
+        display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    }
+}    
+.image{
+    height: 7em;
+    width:10em;
+    margin: 0em auto;
+    background: url("/public/images/illustration-thank-you.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* background-color: aqua; */
+}
+.points{
+    font-size: 1.4em;
+    margin: 0em auto;
+    border-radius: 1em;
+    background-color: black;
+    color: orange;
+    width:80%;
+    height: 2em;
+    text-align: center;
+    padding: 0.5em 0em 0em 0em;
+}
+.thank-you{
+    margin: 0em auto 0em auto ;
+    font-size: 2.4em;
+    color: aliceblue;
+}
+.message{
+    margin: 0em auto;
+    text-align: center;
+    width: 80%;
+    font-size: 1.4em;
+    color: hsl(217, 12%, 63%);
 }

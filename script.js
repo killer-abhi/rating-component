@@ -1,35 +1,18 @@
 let circle=["c1","c2","c3","c4","c5"];
-let end;
-function handleclick1(){
-    console.log("Clicked On Circle 1");
-    end=1;
+let end=0;
+function handleclick(id){
+    // let end=e.target.value;
+    console.log(id);
+    end=id;
     change();
 }
-function handleclick2(){
-    console.log("Clicked On Circle 2");
-    end=2;
-    change();
-}
-function handleclick3(){
-    console.log("Clicked On Circle 3");
-    end=3
-    change();
-}
-function handleclick4(){
-    console.log("Clicked On Circle 4");
-    end=4;
-    change();
-}
-function handleclick5(){
-    console.log("Clicked On Circle 5");
-    end=5;
-    change();
-}
+const main1=document.getElementById("main1");
+const main2=document.getElementById("main2");
 function handlesubmit(){
-    let text="Thank You";
-    document.getElementById("submit").innerHTML=text;
-    // document.getElementById("rating").innerHTML=end;
-    console.log(document.getElementById("rating").innerHTML);
+    console.log("Handle Submit Invoked");
+    document.getElementById("points").innerHTML=end;
+    document.getElementById("main1").innerHTML=document.getElementById("main2").innerHTML;
+
 }
 function change(){
     for(let i=1;i<=5;i++)
